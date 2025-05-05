@@ -10,7 +10,7 @@
     body {
       margin: 0;
       font-family: 'Orbitron', sans-serif;
-      background: url('https://i.imgur.com/GGPsHYB.jpg') no-repeat center center fixed;
+      background: url('bg.jpg') no-repeat center center fixed;
       background-size: cover;
       color: #00ffee;
       text-align: center;
@@ -35,13 +35,26 @@
       color: #ff00ff;
       text-shadow: 0 0 8px #ff00ff;
     }
-    a {
+    a, .button {
       color: #00ffee;
       text-decoration: none;
       font-weight: bold;
     }
-    a:hover {
-      text-shadow: 0 0 6px #ff00ff;
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #ff00ff;
+      color: #0f0f0f;
+      border-radius: 5px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      box-shadow: 0 0 10px #ff00ff;
+    }
+    .button:hover {
+      background-color: #00ffee;
+      color: #000;
+      box-shadow: 0 0 15px #00ffee;
     }
     footer {
       margin-top: 60px;
@@ -73,9 +86,11 @@
 
     <p>This is just the beginning. We're building tools, forging alliances, and launching systems that will fracture the digital elite.</p>
     <p><em>Join the underground. Hold E$D. Rewrite the code of power.</em></p>
+
+    <a href="index.html" class="button">Back to Home</a>
   </div>
   <footer>
-    Powered by Steel Fangs | <a href="index.html">Back to Home</a>
+    Powered by Steel Fangs
   </footer>
 </body>
 </html>

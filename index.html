@@ -1,101 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EDX | EuroDollari Experimental</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
     body {
-      margin: 0;
-      font-family: 'Orbitron', sans-serif;
-      background: #0c0c0c;
+      background-color: #0e0e0e;
       color: #00ffcc;
+      font-family: "Orbitron", sans-serif;
       text-align: center;
       padding: 2rem;
     }
     h1 {
-      font-size: 3rem;
-      color: #00ffe1;
-      text-shadow: 0 0 10px #00ffe1;
-    }
-    h2 {
-      color: #16f4d0;
-      margin-top: 3rem;
-    }
-    .logo {
-      width: 160px;
-      margin-bottom: 1rem;
-      filter: drop-shadow(0 0 6px #00ffe1);
-    }
-    .section {
-      margin-top: 2.5rem;
-      padding: 1rem;
-      background-color: rgba(255, 255, 255, 0.03);
-      border: 1px solid #00ffe1;
-      border-radius: 10px;
-      width: 80%;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
-      box-shadow: 0 0 20px #00ffe155;
+      font-size: 2.5rem;
+      text-shadow: 0 0 10px #00ffcc;
     }
     a {
-      color: #00ffe1;
+      color: #ff00aa;
       text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 5px #ff00aa;
+    }
+    .container {
+      margin-top: 3rem;
     }
     .button {
-      background-color: #00ffe1;
-      color: #000;
-      padding: 1rem 2rem;
-      border: none;
-      cursor: pointer;
-      font-weight: bold;
-      font-size: 1rem;
       margin-top: 2rem;
-      border-radius: 6px;
+      padding: 1rem 2rem;
+      border: 2px solid #00ffcc;
+      color: #00ffcc;
+      background: transparent;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
     }
     .button:hover {
-      background-color: #0ff;
-    }
-    footer {
-      margin-top: 4rem;
-      color: #777;
-      font-size: 0.85rem;
+      background: #00ffcc;
+      color: #0e0e0e;
     }
   </style>
 </head>
 <body>
-  <img src="edx_logo.png" alt="EDX Logo" class="logo" />
-  <h1>EDX</h1>
-  <h2>EuroDollari Experimental</h2>
-  <p>A digital asset born from censorship. Reforged on Solana. Engineered for cyber resistance.</p>
+  <h1>EDX | EuroDollari Experimental</h1>
+  <p>The glitch is real. The pool is live.</p>
+  <div class="container">
+    <p><strong>Token Address:</strong></p>
+    <p><code>HH19Y1Tq9na94hUhEQnQtnYdG7dGwP9RxiSyeN649sA5</code></p>
 
-  <div class="section">
-    <h2>Token Details</h2>
-    <p><strong>Name:</strong> EuroDollari Experimental (EDX)</p>
-    <p><strong>Total Supply:</strong> 1,000,000</p>
-    <p><strong>Decimals:</strong> 9</p>
-    <p><strong>Network:</strong> Solana</p>
-    <p><strong>Token Address:</strong> <a href="https://explorer.solana.com/address/HH19Y1Tq9na94hUhEQnQtnYdG7dGwP9RxiSyeN649sA5" target="_blank">View on Solana Explorer</a></p>
+    <p><strong>View Pool on Meteora:</strong></p>
+    <p><a href="https://app.meteora.ag/pools/HiuT4PikbuDQf6fx6tG3DW8QgFyFdKFRwaem1yNn8Hhj" target="_blank">Meteora EDX Pool</a></p>
+
+    <p><strong>Track EDX on Birdeye:</strong></p>
+    <p><a href="https://birdeye.so/token/HH19Y1Tq9na94hUhEQnQtnYdG7dGwP9RxiSyeN649sA5?chain=solana" target="_blank">Birdeye Tracker</a></p>
+
+    <button class="button" onclick="location.href='https://choomchain.github.io/eurodollari'">Back to Main</button>
   </div>
-
-  <div class="section">
-    <h2>Genesis</h2>
-    <p>The system tried to erase us. They failed.</p>
-    <p>EDX is the rebirth of EuroDollari. No presale. No team tokens. No mercy.</p>
-    <p>Only 1 million. Only for the chosen.</p>
-  </div>
-
-  <div class="section">
-    <h2>Community & Presence</h2>
-    <p>We don’t shill. We infiltrate.</p>
-    <p>Follow our signals, spread the code, join the underground.</p>
-    <button class="button" onclick="window.open('https://x.com/EurodollariED', '_blank')">Follow us on X</button>
-  </div>
-
-  <footer>
-    &copy; 2025 EDX / Steel Fangs. Glitchwolf is watching.
-  </footer>
 </body>
 </html>
